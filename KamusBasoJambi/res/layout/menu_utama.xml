@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:gravity="center_vertical"
+    android:paddingRight="40dp">
+
+    <Button
+        android:id="@+id/btnDaftarKata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:onClick="daftarKata"
+        android:text="Daftar Kata"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnTerjemahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:onClick="terjemahan"
+        android:text="Terjemahan"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAksara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:onClick="aksara"
+        android:text="Aksara"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:onClick="history"
+        android:text="History"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:onClick="about"
+        android:text="Tentang"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:onClick="exit"
+        android:text="Keluar"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

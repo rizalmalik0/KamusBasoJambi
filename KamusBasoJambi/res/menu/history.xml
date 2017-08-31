@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".History" >
+
+    <item
+        android:id="@+id/clear"
+        android:onClick="clear"
+        android:title="Clear"
+        android:showAsAction="never"/>
+
+</menu>

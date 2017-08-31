@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppThemeAction" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:typeface">monospace</item>
+        <item name="android:actionBarStyle">@style/customActionBar</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">True</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <!-- Action Bar Theme -->
+    <style name="customActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/background</item>
+        <!-- <item name="android:icon">@android:color/transparent</item> -->
+        <item name="android:titleTextStyle">@style/customActionText</item>
+    </style>
+    <style name="customActionText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
